@@ -36,3 +36,4 @@ if uploaded_file is not None:
     confidence_scalar = float(confidence)
 
     st.image(img, caption=f'Predicted Class: {predicted_class} (Confidence: {confidence_scalar:.2f})', use_column_width=True)
+
